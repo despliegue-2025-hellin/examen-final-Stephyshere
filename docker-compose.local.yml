@@ -4,7 +4,7 @@ services:
     container_name: postgres_actors
     restart: always
     environment:
-      POSTGRES_DB: actors
+      POSTGRES_DB: actors_db
       POSTGRES_USER: actors_user
       POSTGRES_PASSWORD: actors_pass
     ports:
@@ -17,7 +17,7 @@ services:
     container_name: postgres_movies
     restart: always
     environment:
-      POSTGRES_DB: movies
+      POSTGRES_DB: movies_db
       POSTGRES_USER: movies_user
       POSTGRES_PASSWORD: movies_pass
     ports:
